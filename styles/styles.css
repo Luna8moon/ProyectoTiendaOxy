@@ -1,16 +1,25 @@
-.global_nav {
+body {
+  margin: 0;
+}
+
+.header {
   width: 100%;
-  height: 4.375em;
+  height: 4.2em;
   border: 2px solid red;
   padding: 0.5em;
 }
-.global_nav__title-logo {
+.header__title-logo {
+  font-family: "Raleway";
+  font-weight: 300;
+  line-height: 37px;
+  font-size: 32px;
   color: rgb(8, 166, 228);
-  border: 2px solid red;
-  margin-left: 1em;
-  color: blue;
-  display: inline;
+  margin: 17px 0 0 25px;
+  display: inline-block;
 }
-.global_nav__barralogo {
-  border: 2px solid purple;
+.header__barralogo {
+  width: 20px;
+  height: 12px;
+  position: absolute;
+  margin: 1.813em 0 0 5em;
 }/*# sourceMappingURL=styles.css.map */
