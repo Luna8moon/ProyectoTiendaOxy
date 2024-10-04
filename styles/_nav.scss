@@ -1,0 +1,35 @@
+.nav{
+    text-align: center;
+    margin-top: 8em;
+    font-weight: 400;
+
+    &__p-title{
+        color: black;
+        font-size: 35px;
+        font-family: "Raleway";
+        font-size: 35px;
+        line-height: 41.09px;
+    }
+
+    &__p{
+        font-family: "Open Sans";
+        font-size: 16px;
+        line-height: 23px;
+        color: #000000;
+    }
+
+    &__button{
+        color: beige;
+        background-color: #08A6E4;
+        border-radius: 30px;
+        width: 310px;
+        height: 67px;
+        top: 146px;
+        border: transparent;
+        font-family: Open Sans;
+        font-size: 16px;
+        font-weight: 700;
+        line-height: 22px;
+    }
+
+}
