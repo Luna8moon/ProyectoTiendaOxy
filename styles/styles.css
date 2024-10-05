@@ -33,7 +33,6 @@ body {
   color: black;
   font-size: 35px;
   font-family: "Raleway";
-  font-size: 35px;
   line-height: 41.09px;
 }
 .nav__p {
@@ -45,7 +44,7 @@ body {
 .nav__button {
   color: beige;
   background-color: #08A6E4;
-  border-radius: 30px;
+  border-radius: 34px;
   width: 310px;
   height: 67px;
   top: 146px;
