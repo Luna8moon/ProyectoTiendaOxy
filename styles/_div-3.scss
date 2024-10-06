@@ -1,0 +1,45 @@
+
+.div-3{
+    display: block;
+    padding-left: 9.4em;
+    position: absolute;
+
+
+    &__eclipse-blue{
+        width: 3.919;
+        height: 3.919;
+    }
+
+    &__figure-eye{
+        width: 65.43px;
+        height: 36.5px;
+        top: 12.25px;
+        left: 77.78px;
+        padding: 1.75px 2.22px 1.75px 2.22px;
+        margin-left: -46px;
+        margin-bottom: 12px;
+        
+    }
+
+    &__number{
+        height: 24px;
+        font-family: "Raleway";
+        text-align: center;
+        margin-right: 98px;
+        font-size: 20px;
+        font-weight: 800px;
+        margin-top: 0;
+        line-height: 24px;
+        letter-spacing: 5.96px;
+    }
+
+    &__text{
+        font-family: "Raleway";
+        font-size: 17px;
+        font-weight: 400;
+        line-height: 20px;
+        text-align: center;
+        color: #A5A5A5;
+        margin-right: 120px; 
+    }
+}

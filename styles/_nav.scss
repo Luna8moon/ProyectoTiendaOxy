@@ -1,3 +1,4 @@
+
 .nav{
     text-align: center;
     margin-top: 8em;
@@ -29,6 +30,17 @@
         font-size: 16px;
         font-weight: 700;
         line-height: 22px;
+    }
+
+    &__lapto{
+        width: 100%;
+    }
+
+    &__popular{
+        font-family: "Raleway";
+        font-size: 30px;
+        line-height: 35px;
+        text-align: center;
     }
 
 }
