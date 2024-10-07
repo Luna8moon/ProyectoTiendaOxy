@@ -1,5 +1,6 @@
 body {
   margin: 0;
+  width: 100%;
 }
 
 .header {
@@ -171,4 +172,82 @@ body {
   line-height: 20px;
   text-align: center;
   color: #A5A5A5;
+}
+
+.rectangule {
+  width: 375px;
+  height: 1395.66px;
+  top: 1426px;
+  border: 2px solid red;
+  display: inline-block;
+  position: absolute;
+}
+.rectangule__first-card, .rectangule__second-card {
+  width: 314px;
+  height: 370px;
+  top: 1468px;
+  border: 2px solid blue;
+  margin: 30px 30px;
+}
+.rectangule__circle {
+  width: 127.45px;
+  height: 127.45px;
+  padding-left: 150px;
+  position: absolute;
+}
+.rectangule__macbook {
+  width: 192.76px;
+  height: 109.93px;
+  display: inline;
+  position: relative;
+  padding-top: 37.11px;
+  padding-left: 60px;
+}
+.rectangule__text-1 {
+  font-family: "Raleway";
+  font-size: 30px;
+  font-weight: 400;
+  line-height: 35.22px;
+  text-align: left;
+  padding-left: 22px;
+  color: black;
+}
+.rectangule__text-2 {
+  font-family: "Open Sans";
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 21px;
+  text-align: left;
+  padding-left: 21px;
+  color: black;
+}
+.rectangule__circle-blue {
+  width: 131.88px;
+  height: 131.7px;
+  padding-top: 12px;
+  padding-left: 90px;
+  position: absolute;
+}
+.rectangule__iphone {
+  width: 175px;
+  height: 134.99px;
+  top: 19.01px;
+  padding-left: 90px;
+  position: relative;
+}
+.rectangule__thrid-card {
+  width: 314px;
+  height: 523.36px;
+  top: 2291px;
+  left: 18.31px;
+  border: 2px solid blue;
+  margin: 30px 30px;
+}
+.rectangule__text-3 {
+  font-family: "Open Sans";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 21.79px;
+  text-align: left;
+  padding-left: 22px;
 }/*# sourceMappingURL=styles.css.map */
