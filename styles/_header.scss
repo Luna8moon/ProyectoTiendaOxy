@@ -1,9 +1,7 @@
 
 .header{
-    width: 100%;
-    height: 4.2em;
     padding: .5em;
-    box-shadow: #A5A5A5 0 0 0 2px;
+    box-shadow: #A5A5A5 0 0 2px 2px;
 
 
     &__title-logo{
@@ -12,14 +10,13 @@
         line-height: 37px;
         font-size: 32px; 
         color: rgba(8, 166, 228, 1);
-        margin: 17px 0 0 25px;  
+        margin: 0 0 0 25px;  
         display: inline-block;
+        padding-bottom: 10px;
+        padding-top: 10px;
     }
     
     &__barralogo{
-        width: 20px;
-        height: 12px;
-        position: absolute;
-        margin: 1.813em 0 0 5em;
+        padding: 0 0 4px 70px;
     }
 }

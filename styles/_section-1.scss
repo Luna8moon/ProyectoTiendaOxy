@@ -1,40 +1,35 @@
 
-.nav-2{
-    padding-left: 9.4em;
+.section-1{
     display: block;
+    padding-left: 9.4em;
 
-
-    &__eclipse-red{
-        width: 3.919;
-        height: 3.919;
-    }
 
     &__figure{
-        width: 2.75em;
-        height: 3.25em;
         margin-left: -35px;
         margin-bottom: 6px;
     }
 
     &__number{
-        height: 24px;
         font-family: "Raleway";
         text-align: center;
-        margin-right: 98px;
         font-size: 20px;
         font-weight: 800px;
-        margin-top: 0;
         line-height: 24px;
         letter-spacing: 5.96px;
+        margin: 0 0 0 0;
+        padding-right: 100px;
     }
 
     &__text{
+        margin: 0;
         font-family: "Raleway";
         font-size: 17px;
         font-weight: 400;
         line-height: 20px;
         text-align: center;
-        color: #A5A5A5;
-        margin-right: 130px;    
+        color: #A5A5A5;  
+        padding-top: 20px;
+        padding-right: 130px;
     }
+
 }

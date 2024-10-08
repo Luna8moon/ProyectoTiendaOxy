@@ -1,32 +1,21 @@
 
 .rectangule{
-    width: 375px;
-    height: 1395.66px;
-    top: 1426px;
+    background-color: #F7F7F7;
     border: 2px solid red;
-    display: inline-block;
-    position: absolute;
-
-
+    margin-bottom: 0;
+    margin-top: 400px;
     &__first-card, &__second-card{
-        width: 314px;
-        height: 370px;
-        top: 1468px;
-        border: 2px solid blue;
         margin: 30px 30px; 
-
+        background-color: white;
+        border: 1px solid #E8E9ED;
     }
 
     &__circle{
-        width: 127.45px;
-        height: 127.45px;
         padding-left: 150px;
         position: absolute;
     }
 
     &__macbook{
-        width: 192.76px;
-        height: 109.93px;
         display: inline;
         position: relative;
         padding-top: 37.11px;
@@ -54,28 +43,22 @@
     }
 
     &__circle-blue{
-        width: 131.88px;
-        height: 131.7px;
         padding-top: 12px;
         padding-left: 90px;
         position: absolute;
     }
 
     &__iphone{
-        width: 175px;
-        height: 134.99px;
         top: 19.01px;
         padding-left: 90px;
         position: relative;
     }
 
     &__thrid-card{
-        width: 314px;
-        height: 523.36px;
-        top: 2291px;
         left: 18.31px;
-        border: 2px solid blue;
         margin: 30px 30px;
+        background-color: white;
+        border: 1px solid #E8E9ED
     }
 
     &__text-3{
@@ -85,9 +68,18 @@
         line-height: 21.79px;
         text-align: left;
         padding-left: 22px;
-
     }
 
+    &__blue{
+        padding-left: 11.69px;
+        border-radius: 5px 0px 0px 0px;
+        border: 1px 0px 0px 0px;
+        position: absolute;
+    }
 
+    &__trumpet{
+        top: 315.64px;
+        position: relative;
+    }
 }
 
