@@ -65,9 +65,11 @@ body {
   display: block;
   padding-left: 9.4em;
 }
+.section-1__eclipse-red {
+  position: absolute;
+}
 .section-1__figure {
-  margin-left: -35px;
-  margin-bottom: 6px;
+  position: relative;
 }
 .section-1__number {
   font-family: "Raleway";
@@ -198,10 +200,12 @@ body {
   position: relative;
 }
 .rectangule__thrid-card {
-  left: 18.31px;
   margin: 30px 30px;
-  background-color: white;
   border: 1px solid #E8E9ED;
+  border-bottom: 0;
+}
+.rectangule__thrid-card-text {
+  background-color: white;
 }
 .rectangule__text-3 {
   font-family: "Open Sans";
@@ -211,29 +215,13 @@ body {
   text-align: left;
   padding-left: 22px;
 }
-.rectangule__blue {
-  padding-left: 11.69px;
-  border-radius: 5px 0px 0px 0px;
-  border: 1px 0px 0px 0px;
-  position: absolute;
-}
-.rectangule__trumpet {
-  top: 315.64px;
-  position: relative;
-}
 
-.grup-trumpet {
-  margin: 0;
-  display: inline-block;
-}
 .grup-trumpet__blue {
-  margin: 0;
-  position: absolute;
+  position: relative;
 }
 .grup-trumpet__trumpet {
-  margin: 0;
-  position: relative;
-  padding-top: 30px;
+  position: absolute;
+  top: 2535px;
 }
 
 .pricing-text {
@@ -247,9 +235,331 @@ body {
 }
 
 .pricing {
-  border: 4px solid red;
+  margin: 0;
 }
 .pricing__card-pink {
-  width: 80px;
-  border: 2px solid blue;
+  border: 2px solid hsl(347, 96%, 61%);
+  border-radius: 10px;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  margin: 20px 35px;
+  height: 230px;
+}
+.pricing__h2 {
+  font-family: "Raleway";
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 24px;
+  text-align: left;
+  margin: 0;
+  margin-left: 10px;
+}
+.pricing__dolar {
+  color: hsl(347, 96%, 61%);
+  font-family: "Open Sans";
+  font-size: 46px;
+  font-weight: 300;
+  line-height: 64px;
+  margin: 0;
+  text-align: left;
+  margin-left: 10px;
+}
+.pricing__margin {
+  margin: 0;
+}
+.pricing__margin-0 {
+  margin-bottom: 0;
+}
+.pricing__list-pink {
+  list-style-type: none;
+  text-align: left;
+  padding-top: 20px;
+  margin: 0;
+  font-family: "Open Sans";
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 19.07px;
+  color: black;
+}
+.pricing__check {
+  color: #55DFB4;
+  border: 1px solid #55DFB4;
+  border-radius: 2px;
+  font-size: 8px;
+  padding-left: 1px;
+  padding-right: 1px;
+  margin-right: 5px;
+}
+.pricing__cross {
+  color: #EB476E;
+  border: 1px solid hsl(347, 96%, 61%);
+  border-radius: 2px;
+  font-size: 8px;
+  padding-left: 1px;
+  padding-right: 1px;
+  margin-right: 5px;
+}
+.pricing__cross-text, .pricing__check-text {
+  font-family: "Open Sans";
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 19.07px;
+}
+.pricing__button-pink {
+  color: white;
+  background-color: #EB476E;
+  border-radius: 20px;
+  font-family: "Open Sans";
+  font-size: 13px;
+  font-weight: 700;
+  line-height: 17.7px;
+  border: none;
+  text-align: center;
+  padding: 15px 60px;
+  position: relative;
+  top: 4px;
+}
+
+li {
+  padding-bottom: 15px;
+  margin: 0;
+}
+
+table {
+  padding-left: 50px;
+  margin: 0;
+}
+
+.pricing-blue {
+  margin: 0;
+  padding-top: 20px;
+}
+.pricing-blue__card-blue {
+  border: 2px solid #07ACE6;
+  border-radius: 10px;
+  box-shadow: 5px 5px 15px rgba(7, 172, 230, 0.2901960784);
+  text-align: center;
+  position: relative;
+  margin: 20px 15px;
+  padding-top: 25px;
+  padding-left: 0;
+}
+.pricing-blue__table {
+  padding: 0;
+}
+.pricing-blue__h2 {
+  font-family: "Raleway";
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 24px;
+  text-align: left;
+  margin: 0;
+  margin-left: 10px;
+}
+.pricing-blue__dolar {
+  color: #07ACE6;
+  font-family: "Open Sans";
+  font-size: 46px;
+  font-weight: 300;
+  line-height: 64px;
+  margin: 0;
+  text-align: center;
+  margin-left: 10px;
+}
+.pricing-blue__limited {
+  font-family: Raleway;
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 14.09px;
+  text-align: center;
+  margin: 0;
+  position: relative;
+  left: 10px;
+}
+.pricing-blue__list-blue {
+  list-style-type: none;
+  text-align: left;
+  padding-top: 20px;
+  margin: 0;
+  font-family: "Open Sans";
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 19.07px;
+  color: black;
+}
+.pricing-blue__check {
+  color: #55DFB4;
+  border: 1px solid #55DFB4;
+  border-radius: 2px;
+  font-size: 8px;
+  padding-left: 1px;
+  padding-right: 1px;
+  margin-right: 5px;
+}
+.pricing-blue__cross {
+  color: #FB3B64;
+  border: 1px solid #FB3B64;
+  border-radius: 2px;
+  font-size: 8px;
+  padding-left: 1px;
+  padding-right: 1px;
+  margin-right: 5px;
+}
+.pricing-blue__cross-text, .pricing-blue__check-text {
+  font-family: "Open Sans";
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 19.07px;
+}
+.pricing-blue__button-blue {
+  color: white;
+  background-color: #07ACE6;
+  border-radius: 20px;
+  font-family: "Open Sans";
+  font-size: 13px;
+  font-weight: 700;
+  line-height: 17.7px;
+  border: none;
+  text-align: center;
+  padding: 15px 60px;
+  position: relative;
+  top: 20px;
+}
+.pricing-blue_margin {
+  padding-bottom: 0;
+}
+
+.pricing-green {
+  margin: 0;
+  padding-top: 20px;
+  padding-right: 0;
+}
+.pricing-green__card-green {
+  border: 2px solid hsl(347, 96%, 61%);
+  border-radius: 10px;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  margin: 20px 35px;
+  height: 230px;
+}
+.pricing-green__h2 {
+  font-family: "Raleway";
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 24px;
+  text-align: left;
+  margin: 0;
+  margin-left: 15px;
+}
+.pricing-green__dolar {
+  color: hsl(347, 96%, 61%);
+  font-family: "Open Sans";
+  font-size: 46px;
+  font-weight: 300;
+  line-height: 64px;
+  margin: 0;
+  text-align: center;
+  margin-left: 15px;
+}
+.pricing-green__table {
+  padding-left: 5px;
+}
+.pricing-green__limited {
+  font-family: Raleway;
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 14.09px;
+  text-align: center;
+  padding-left: 15px;
+}
+.pricing-green__margin {
+  margin: 0;
+}
+.pricing-green__margin-0 {
+  margin-bottom: 0;
+}
+.pricing-green__list-green {
+  list-style-type: none;
+  text-align: left;
+  padding-top: 20px;
+  padding-right: 0;
+  margin: 0;
+  font-family: "Open Sans";
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 19.07px;
+  color: black;
+}
+.pricing-green__check {
+  color: #55DFB4;
+  border: 1px solid #55DFB4;
+  border-radius: 2px;
+  font-size: 8px;
+  padding-left: 1px;
+  padding-right: 1px;
+  margin-right: 5px;
+}
+.pricing-green__check-text {
+  font-family: "Open Sans";
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 19.07px;
+}
+.pricing-green__button-green {
+  color: white;
+  background-color: #EB476E;
+  border-radius: 20px;
+  font-family: "Open Sans";
+  font-size: 13px;
+  font-weight: 700;
+  line-height: 17.7px;
+  border: none;
+  text-align: center;
+  padding: 15px 60px;
+  position: relative;
+  top: 4px;
+}
+
+li {
+  padding-bottom: 15px;
+  margin: 0;
+}
+
+.form {
+  padding-left: 30px;
+}
+.form__h1 {
+  font-family: "Raleway";
+  font-size: 40px;
+  font-weight: 400;
+  line-height: 46.96px;
+  text-align: left;
+  margin-bottom: 0;
+}
+.form__h4 {
+  font-family: "Open Sans";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 22px;
+  text-align: left;
+  margin-top: 0;
+  padding-bottom: 15px;
+  margin-bottom: 0;
+}
+.form__mail, .form__phone {
+  display: inline-block;
+  font-family: "Open Sans";
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 22px;
+  text-align: left;
+  margin-bottom: 0;
+  color: #A5A5A5;
+  padding-left: 8px;
+  position: relative;
+  bottom: 4px;
 }/*# sourceMappingURL=styles.css.map */

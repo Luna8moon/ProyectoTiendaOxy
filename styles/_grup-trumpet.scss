@@ -1,16 +1,12 @@
 
 .grup-trumpet{
-    margin: 0;
-    display: inline-block;
 
     &__blue{
-        margin: 0;
-        position: absolute;
+        position: relative;
     }
 
     &__trumpet{
-        margin: 0;
-        position: relative;
-        padding-top: 30px;
+        position: absolute;
+        top: 2535px;
     }
 }

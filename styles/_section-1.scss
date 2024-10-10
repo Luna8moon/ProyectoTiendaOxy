@@ -3,10 +3,13 @@
     display: block;
     padding-left: 9.4em;
 
+    &__eclipse-red{
+        position: absolute;
+    }
+
 
     &__figure{
-        margin-left: -35px;
-        margin-bottom: 6px;
+        position: relative;
     }
 
     &__number{

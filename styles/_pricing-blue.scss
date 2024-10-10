@@ -1,16 +1,21 @@
 
-.pricing{
+.pricing-blue{
     margin: 0;
+    padding-top: 20px;
 
-    &__card-pink{
-        border: 2px solid hsl(347, 96%, 61%);
+    &__card-blue{
+        border: 2px solid  #07ACE6;
         border-radius: 10px;
+        box-shadow: 5px 5px 15px #07ACE64A;
         text-align: center;        
-        align-items:  center;
-        justify-content: center;
         position: relative;
-        margin:20px 35px;
-        height: 230px;
+        margin:20px 15px;
+        padding-top: 25px;
+        padding-left: 0;
+    }
+    
+    &__table{
+        padding: 0;
     }
 
     &__h2{
@@ -24,24 +29,28 @@
     }
 
     &__dolar{
-        color :hsl(347, 96%, 61%) ;
+        color:#07ACE6;
         font-family: "Open Sans";
         font-size: 46px;
         font-weight: 300;
         line-height: 64px;
         margin: 0;
-        text-align: left;
+        text-align: center;
         margin-left: 10px;
     }
 
-    &__margin{
+    &__limited{
+        font-family: Raleway;
+        font-size: 12px;
+        font-weight: 700;
+        line-height: 14.09px;
+        text-align: center;
         margin: 0;
-    }
-    &__margin-0{
-        margin-bottom: 0;
+        position: relative;
+        left: 10px;
     }
 
-    &__list-pink{
+    &__list-blue{
         list-style-type: none;
         text-align: left;
         padding-top: 20px;
@@ -64,8 +73,8 @@
     }
 
     &__cross{
-        color: #EB476E;
-        border: 1px solid hsl(347, 96%, 61%);
+        color: #FB3B64;
+        border: 1px solid #FB3B64;
         border-radius: 2px;
         font-size: 8px;
         padding-left: 1px;
@@ -80,9 +89,9 @@
         line-height: 19.07px;
      }
 
-    &__button-pink{
+    &__button-blue{
         color: white;
-        background-color: #EB476E;
+        background-color: #07ACE6;
         border-radius: 20px;
         font-family: "Open Sans";
         font-size: 13px;
@@ -92,14 +101,10 @@
         text-align: center;
         padding: 15px 60px;
         position: relative;
-        top: 4px;
+        top: 20px;
     }
-}
-li{
-    padding-bottom: 15px;
-    margin: 0;
-}
-table{
-    padding-left: 50px;
-    margin: 0;
+
+    &_margin{
+        padding-bottom: 0;
+    }
 }

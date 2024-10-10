@@ -1,0 +1,43 @@
+
+.form{
+    padding-left: 30px;
+
+    &__h1{
+        font-family: "Raleway";
+        font-size: 40px;
+        font-weight: 400;
+        line-height: 46.96px;
+        text-align: left;
+        margin-bottom: 0;
+    }
+
+    &__h4{
+        font-family: "Open Sans";
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 22px;
+        text-align: left;
+        margin-top: 0;
+        padding-bottom: 15px;
+        margin-bottom: 0;
+    }
+
+    &__mail, &__phone{
+        display: inline-block;
+        font-family: "Open Sans";
+        font-size: 16px;
+        font-weight: 600;
+        line-height: 22px;
+        text-align: left;
+        margin-bottom: 0;
+        color: #A5A5A5;
+        padding-left: 8px;
+        position: relative;
+        bottom: 4px;
+    }
+
+    &__input{
+        
+    }
+
+}
