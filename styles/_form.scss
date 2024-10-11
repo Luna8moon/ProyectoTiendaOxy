@@ -1,6 +1,7 @@
 
 .form{
     padding-left: 30px;
+    padding-right: 40px;
 
     &__h1{
         font-family: "Raleway";
@@ -36,6 +37,10 @@
         bottom: 4px;
     }
 
+    &__mail-text{
+        padding-top: 15px;
+    }
+
     &__user{
         font-family: "Open Sans";
         font-size: 11px;
@@ -44,6 +49,7 @@
         letter-spacing: 4px;
         color: #07ACE6;
         border: none;
+        padding-top: 35px;
     }
 
     &__consent{
@@ -53,5 +59,39 @@
         line-height: 16px;
         text-align: left;
         color: #707070;
+        padding-left: 30px;
+        padding-bottom: 30px;
+        margin: 0;
     }
+
+    &__input{
+        padding-top: 20px;
+        border: none;
+        border-bottom: 2px solid #A5A5A5;
+        width: 100%;
+    }
+
+
+    &__button{
+        color: beige;
+        background-color: #08A6E4;
+        border-radius: 34px;
+        border: transparent;
+        font-family: "Open Sans";
+        font-size: 16px;
+        font-weight: 700;
+        line-height: 22px;
+        padding: 18px 95px;
+        position: relative;
+        left: 100px;
+        margin-bottom: 30px;
+    }
+
+    &__check{
+       position: relative;
+       top: 42px;
+       width: 22px;
+       height: 22px;
+       right: 10px;
+}
 }

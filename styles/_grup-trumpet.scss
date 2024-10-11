@@ -2,11 +2,11 @@
 .grup-trumpet{
 
     &__blue{
-        position: relative;
+        position: absolute;
     }
 
     &__trumpet{
-        position: absolute;
-        top: 2535px;
+        position: relative;
+        top: 20px;
     }
 }
