@@ -21,6 +21,56 @@ body {
 .header__barralogo {
   padding: 0 0 4px 70px;
 }
+.header__menu-title {
+  display: none;
+}
+.header__title-logo2 {
+  display: none;
+}
+@media only screen and (min-width: 1000px) {
+  .header {
+    padding: 0.2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .header__barralogo {
+    padding: 0 0 4px 70px;
+    display: none;
+  }
+  .header__menu-title {
+    display: flex;
+    list-style-type: none;
+    align-content: end;
+    padding-right: 4rem;
+    font-family: Open Sans;
+    font-size: 11px;
+    font-weight: 600;
+    letter-spacing: 0.1rem;
+    text-align: center;
+  }
+  .header__menu-title1 {
+    margin-right: 4rem;
+    margin-top: 10px;
+  }
+  .header__menu-title2 {
+    margin-right: 4rem;
+    margin-top: 10px;
+    color: #A5A5A5;
+  }
+  .header__title-logo2 {
+    display: inline;
+    font-family: "Raleway";
+    font-weight: 300;
+    line-height: 37px;
+    font-size: 32px;
+    color: rgb(8, 166, 228);
+    margin-left: 64px;
+  }
+  .header__title-logo {
+    display: none;
+  }
+}
 
 .nav {
   text-align: center;

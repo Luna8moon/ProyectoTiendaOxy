@@ -2,8 +2,6 @@
 .header{
     padding: .5em;
     box-shadow: #A5A5A5 0 0 2px 2px;
-  
-
 
     &__title-logo{
         font-family: "Raleway";
@@ -19,5 +17,63 @@
     
     &__barralogo{
         padding: 0 0 4px 70px;
+    }
+
+    &__menu-title{
+        display: none;
+    }
+
+    &__title-logo2{
+        display: none;
+    }
+
+    @media only screen and (min-width: 1000px){
+
+        padding: 0.2rem;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        &__barralogo{
+            padding: 0 0 4px 70px;
+            display: none;
+        }
+        &__menu-title{
+            display: flex;
+            list-style-type: none;
+            align-content: end;
+            padding-right: 4rem;
+            font-family: Open Sans;
+            font-size: 11px;
+            font-weight: 600;
+            letter-spacing: 0.1rem;
+            text-align: center;
+        }
+
+            &__menu-title1{
+                margin-right: 4rem;
+                margin-top: 10px;
+            }
+
+            &__menu-title2{
+                margin-right: 4rem;
+                margin-top: 10px;
+                color: #A5A5A5;
+            }
+
+        &__title-logo2{
+            display: inline;
+            font-family: "Raleway";
+            font-weight: 300;
+            line-height: 37px;
+            font-size: 32px; 
+            color: rgba(8, 166, 228, 1);
+            margin-left: 64px;
+        }
+
+        &__title-logo{
+            display: none;
+        }
+    
     }
 }
