@@ -1,8 +1,8 @@
 
 .rectangule{
     background-color: #F7F7F7;
-    margin-bottom: 0;
-    margin-top: 400px;
+    padding-top: 20px;
+    width: 100%;
 
     &__first-card, &__second-card{
         margin: 30px 30px; 
@@ -71,6 +71,18 @@
         line-height: 21.79px;
         text-align: left;
         padding-left: 22px;
+    }
+
+    .grup-trumpet{
+
+        &__blue{
+            position: absolute;
+        }
+    
+        &__trumpet{
+            position: relative;
+            top: 20px;
+        }
     }
 }
 

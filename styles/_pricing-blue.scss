@@ -2,16 +2,15 @@
 .pricing-blue{
     margin: 0;
     padding-top: 20px;
+    width: 100%;
 
     &__card-blue{
         border: 2px solid  #07ACE6;
         border-radius: 10px;
         box-shadow: 5px 5px 15px #07ACE64A;
         text-align: center;        
-        position: relative;
         margin:20px 15px;
         padding-top: 25px;
-        padding-left: 0;
     }
     
     &__table{
@@ -99,7 +98,7 @@
         line-height: 17.7px;
         border: none;
         text-align: center;
-        padding: 15px 60px;
+        padding: 10px 60px;
         position: relative;
         top: 20px;
     }
@@ -107,4 +106,115 @@
     &_margin{
         padding-bottom: 0;
     }
-}
+
+    @media only screen and (min-width: 1000px){
+        .pricing-blue{
+            margin: 0;
+            padding-top: 20px;
+        
+            &__card-blue{
+                border: 2px solid  #07ACE6;
+                border-radius: 10px;
+                box-shadow: 5px 5px 15px #07ACE64A;
+                text-align: center;        
+                margin:20px 15px;
+                padding-top: 25px;
+                width: 70%;
+            }
+            
+            &__table{
+                padding: 0;
+            }
+        
+            &__h2{
+                font-family: "Raleway";
+                font-size: 20px;
+                font-weight: 700;
+                line-height: 24px;
+                text-align: left;
+                margin: 0;
+                margin-left: 10px;
+            }
+        
+            &__dolar{
+                color:#07ACE6;
+                font-family: "Open Sans";
+                font-size: 46px;
+                font-weight: 300;
+                line-height: 64px;
+                margin: 0;
+                text-align: center;
+                margin-left: 10px;
+            }
+        
+            &__limited{
+                font-family: Raleway;
+                font-size: 12px;
+                font-weight: 700;
+                line-height: 14.09px;
+                text-align: center;
+                margin: 0;
+                position: relative;
+                left: 10px;
+            }
+        
+            &__list-blue{
+                list-style-type: none;
+                text-align: left;
+                padding-top: 20px;
+                margin: 0;
+                font-family: "Open Sans";
+                font-size: 14px;
+                font-weight: 400;
+                line-height: 19.07px;
+                color: black;     
+            }
+        
+            &__check{
+                color: #55DFB4;
+                border: 1px solid #55DFB4;
+                border-radius: 2px;
+                font-size: 8px;
+                padding-left: 1px;
+                padding-right: 1px;
+                margin-right: 5px;
+            }
+        
+            &__cross{
+                color: #FB3B64;
+                border: 1px solid #FB3B64;
+                border-radius: 2px;
+                font-size: 8px;
+                padding-left: 1px;
+                padding-right: 1px;
+                margin-right: 5px;
+            }
+        
+             &__cross-text, &__check-text{
+                font-family: "Open Sans";
+                font-size: 14px;
+                font-weight: 400;
+                line-height: 19.07px;
+             }
+        
+            &__button-blue{
+                color: white;
+                background-color: #07ACE6;
+                border-radius: 20px;
+                font-family: "Open Sans";
+                font-size: 13px;
+                font-weight: 700;
+                line-height: 17.7px;
+                border: none;
+                text-align: center;
+                padding: 10px 60px;
+                position: relative;
+                top: 20px;
+            }
+        
+            &_margin{
+                padding-bottom: 0;
+            }
+        
+    }
+}}

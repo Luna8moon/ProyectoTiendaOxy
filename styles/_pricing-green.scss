@@ -1,5 +1,6 @@
 
 .pricing-green{
+    width: 100%;
     margin: 0;
     padding-top: 20px;
     padding-right: 0;
@@ -100,6 +101,112 @@
         position: relative;
         top: 4px;
     }
+
+    @media only screen and (min-width: 1000px){
+        .pricing-green{
+            margin: 0;
+            padding-top: 20px;
+            padding-right: 0;
+        
+            &__card-green{
+                border: 2px solid hsl(347, 96%, 61%);
+                border-radius: 10px;
+                text-align: center;        
+                align-items:  center;
+                justify-content: center;
+                position: relative;
+                margin:20px 35px;
+                height: 230px;
+                width: 70%;
+            }
+        
+            &__h2{
+                font-family: "Raleway";
+                font-size: 20px;
+                font-weight: 700;
+                line-height: 24px;
+                text-align: left;
+                margin: 0;
+                margin-left: 15px;
+            }
+        
+            &__dolar{
+                color :hsl(347, 96%, 61%) ;
+                font-family: "Open Sans";
+                font-size: 46px;
+                font-weight: 300;
+                line-height: 64px;
+                margin: 0;
+                text-align: center;
+                margin-left: 15px;
+            }
+        
+            &__table{
+                padding-left: 5px;
+            }
+        
+            &__limited{
+                font-family: Raleway;
+                font-size: 12px;
+                font-weight: 700;
+                line-height: 14.09px;
+                text-align: center;
+                padding-left: 15px;
+            }
+        
+            &__margin{
+                margin: 0;
+            }
+            &__margin-0{
+                margin-bottom: 0;
+            }
+        
+            &__list-green{
+                list-style-type: none;
+                text-align: left;
+                padding-top: 20px;
+                padding-right: 0;
+                margin: 0;
+                font-family: "Open Sans";
+                font-size: 14px;
+                font-weight: 400;
+                line-height: 19.07px;
+                color: black;     
+            }
+        
+            &__check{
+                color: #55DFB4;
+                border: 1px solid #55DFB4;
+                border-radius: 2px;
+                font-size: 8px;
+                padding-left: 1px;
+                padding-right: 1px;
+                margin-right: 5px;
+            }
+        
+             &__check-text{
+                font-family: "Open Sans";
+                font-size: 14px;
+                font-weight: 400;
+                line-height: 19.07px;
+             }
+        
+            &__button-green{
+                color: white;
+                background-color: #EB476E;
+                border-radius: 20px;
+                font-family: "Open Sans";
+                font-size: 13px;
+                font-weight: 700;
+                line-height: 17.7px;
+                border: none;
+                text-align: center;
+                padding: 15px 60px;
+                position: relative;
+                top: 4px;
+            }
+    }
+}
 }
 li{
     padding-bottom: 15px;

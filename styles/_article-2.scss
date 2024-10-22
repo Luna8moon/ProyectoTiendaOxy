@@ -1,22 +1,26 @@
 
 .article-2{
     display: block;
-    position: absolute;
+    width: 100%;
+
+    &__eclipse-blue{
+        position: relative;
+        left: 40%;
+    }
 
     &__figure-eye{
-        margin-left: -46px;
-        margin-bottom: 12px;
+        position: absolute;
+        right: 36.5%;
+        margin-top: 10px;
     }
 
     &__number{
         font-family: "Raleway";
         text-align: center;
-        padding-right: 100px;
         font-size: 20px;
         font-weight: 800px;
         line-height: 24px;
         letter-spacing: 5.96px;
-        margin: 0 ;
     }
 
     &__text{
@@ -26,9 +30,39 @@
         line-height: 20px;
         text-align: center;
         color: #A5A5A5;
-        padding-right: 120px; 
-        margin: 0;
-        padding-top: 20px;
+        margin-bottom: 30px;
     }
 
+        @media only screen and (min-width: 1000px){
+
+        &__eclipse-blue{
+            position: relative;
+            left: 47%;
+        }
+
+        &__figure-eye{
+            position: absolute;
+            right: 47%;
+            margin-top: 10px;
+        }
+
+        &__number{
+            font-family: "Raleway";
+            text-align: center;
+            font-size: 20px;
+            font-weight: 800px;
+            line-height: 24px;
+            letter-spacing: 5.96px;
+        }
+
+        &__text{
+            font-family: "Raleway";
+            font-size: 17px;
+            font-weight: 400;
+            line-height: 20px;
+            text-align: center;
+            color: #A5A5A5;
+            margin-bottom: 30px;
+        }
+    }
 }

@@ -1,14 +1,16 @@
 
 .nav{
     text-align: center;
-    margin-top: 8em;
+    margin-top: 6em;
     font-weight: 400;
+    width: 100%;
 
     &__p-title{
         color: black;
         font-size: 35px;
         font-family: "Raleway";
         line-height: 41.09px;
+        text-align: center;
     }
 
     &__p{
@@ -16,6 +18,8 @@
         font-size: 16px;
         line-height: 23px;
         color: #000000;
+        text-align: center;
+        padding: 0 40px;
     }
 
     &__button{
@@ -35,10 +39,64 @@
         width: 100%;
     }
 
+    &__img-web{
+        display: none;
+    }
+
     &__popular{
         font-family: "Raleway";
         font-size: 30px;
         line-height: 35px;
         text-align: center;
+        padding: 0 30px;
+    }
+
+    @media only screen and (min-width: 1000px){
+
+        &__p-title{
+            color: black;
+            font-size: 35px;
+            font-family: "Raleway";
+            line-height: 41.09px;
+        }
+    
+        &__p{
+            font-family: "Open Sans";
+            font-size: 16px;
+            line-height: 23px;
+            color: #000000;
+            text-align: center;
+            margin-bottom: 40px;    
+
+        }
+    
+        &__button{
+            color: beige;
+            background-color: #08A6E4;
+            border-radius: 34px;
+            top: 146px;
+            border: transparent;
+            font-family: "Open Sans";
+            font-size: 16px;
+            font-weight: 700;
+            line-height: 22px;
+            padding: 20px 80px;
+        }
+    
+        &__lapto{
+            display: none;
+        }
+
+        &__img-web{
+            width: 100%;
+            display: block;
+        }
+    
+        &__popular{
+            font-family: "Raleway";
+            font-size: 30px;
+            line-height: 35px;
+            text-align: center;
+        }
     }
 }
