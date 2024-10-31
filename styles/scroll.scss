@@ -1,0 +1,12 @@
+&__scroll {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    padding: 10px 20px;
+    background-color: rgba(8, 166, 228, 1);
+    color: rgba(8, 166, 228, 1);
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    transition: opacity 0.3s;
+}
