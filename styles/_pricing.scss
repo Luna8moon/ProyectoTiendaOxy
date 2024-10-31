@@ -97,7 +97,7 @@
         top: 4px;
     }
 
-    &__pricing-text{
+    &__text{
         width:100%;
          font-family: "Raleway";
          font-size: 36px;
@@ -108,9 +108,14 @@
          padding-top: 45px;
       }
 
+      &__select{
+        
+
+      }
+
+
+
       @media only screen and (min-width: 1000px){
-
-
    
         &__card-pink{
             border: 2px solid hsl(347, 96%, 61%);

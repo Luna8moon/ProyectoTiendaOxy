@@ -502,7 +502,7 @@ body {
   position: relative;
   top: 4px;
 }
-.pricing__pricing-text {
+.pricing__text {
   width: 100%;
   font-family: "Raleway";
   font-size: 36px;
@@ -832,7 +832,7 @@ table {
   padding-right: 0;
 }
 .pricing-green__card-green {
-  border: 2px solid hsl(347, 96%, 61%);
+  border: 2px solid hsl(124, 96%, 61%);
   border-radius: 10px;
   text-align: center;
   align-items: center;
@@ -851,7 +851,7 @@ table {
   margin-left: 15px;
 }
 .pricing-green__dolar {
-  color: hsl(347, 96%, 61%);
+  color: hsl(124, 96%, 61%);
   font-family: "Open Sans";
   font-size: 46px;
   font-weight: 300;
@@ -906,7 +906,7 @@ table {
 }
 .pricing-green__button-green {
   color: white;
-  background-color: #EB476E;
+  background-color: hsl(124, 96%, 61%);
   border-radius: 20px;
   font-family: "Open Sans";
   font-size: 13px;
@@ -925,7 +925,7 @@ table {
     padding-right: 0;
   }
   .pricing-green .pricing-green__card-green {
-    border: 2px solid hsl(347, 96%, 61%);
+    border: 2px solid hsl(124, 96%, 61%);
     border-radius: 10px;
     text-align: center;
     align-items: center;
@@ -945,7 +945,7 @@ table {
     margin-left: 15px;
   }
   .pricing-green .pricing-green__dolar {
-    color: hsl(347, 96%, 61%);
+    color: hsl(124, 96%, 61%);
     font-family: "Open Sans";
     font-size: 46px;
     font-weight: 300;
