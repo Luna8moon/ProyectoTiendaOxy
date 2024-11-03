@@ -1228,4 +1228,13 @@ li {
   #open, #close, .header__menu {
     display: none;
   }
+}
+.form__input {
+  border: 0;
+  padding: 10px;
+  font-size: 16px;
+}
+
+.form__input.error {
+  border: 2px solid red;
 }/*# sourceMappingURL=styles.css.map */

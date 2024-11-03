@@ -1,11 +1,19 @@
 
-const form = document.getElementById('form')
-const nameInput = document.getElementById('name')
-const mailInput = document.getElementById('mail')
-console.log(nameInput)
-const valueName = //nameInput.target.value //obtener valor de target
-if(valueName.length < 2 || valueName.length > 100 ){
-    console.log(valueName, "esta mal")
-    alert("")
-    //cambiar border aquí
-}
+document.getElementById('name').addEventListener('click', function() { //cuando haga click ejecute la función
+    const input = document.getElementById('name');
+    const value = input.value.trim();// para que no cuente los espacios en blanco como caracteres
+
+    // Elimina la clase de error si existe
+    input.classList.remove('error');
+
+    // Valida
+    if (value.length < 2) {
+        input.classList.add('error'); // Agregar borde rojo
+        console.log('El nombre debe tener al menos 2 caracteres.'); 
+    } else if (value.length > 100) {
+        input.classList.add('error'); // Agregar borde rojo
+        console.log('El nombre no debe exceder los 100 caracteres.'); 
+    } else {
+        console.log('El nombre es válido.'); // Mensaje de éxito
+    }
+    });
