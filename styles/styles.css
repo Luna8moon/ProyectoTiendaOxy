@@ -81,6 +81,7 @@ body {
   width: 100%;
 }
 .nav__p-title {
+  margin: 0;
   color: black;
   font-size: 35px;
   font-family: "Raleway";
@@ -374,7 +375,7 @@ body {
 }
 .rectangule__text-2 {
   font-family: "Open Sans";
-  font-size: 14px;
+  font-size: 15px;
   font-weight: 400;
   line-height: 21px;
   text-align: left;
@@ -1189,21 +1190,17 @@ li {
   }
   /* Estilo inicial del menú desplegable */
   .header__menu {
-    position: absolute;
     top: 100px;
     left: 0;
     width: 100%;
     background-color: #ffffff;
-    list-style: none;
+    list-style: none; /*Quita puntos*/
     padding: 20px;
     color: black;
-    display: none; /* Oculto inicialmente */
+    display: none; /* Oculto inicialmente NoQuiare */
     flex-direction: column;
-    gap: 20px;
+    gap: 15px;
     z-index: 9;
-    opacity: 0;
-    transform: translateY(-100%); /* Oculto fuera de la vista en la parte superior */
-    transition: transform 0.3s ease, opacity 0.3s ease;
   }
   /* Mostrar el menú desplegable desde arriba hacia abajo */
   .header__menu.show {
@@ -1213,10 +1210,12 @@ li {
   }
   /* Estilos para cada elemento de menú */
   .header__menuburger {
-    font-size: 18px;
+    font-family: "Open Sans";
+    font-size: 15px;
+    letter-spacing: 0.2em;
     color: #A5A5A5;
     cursor: pointer;
-    padding: 10px 0;
+    padding: 0;
     border-bottom: 0;
   }
   .header__menuburger:hover {
