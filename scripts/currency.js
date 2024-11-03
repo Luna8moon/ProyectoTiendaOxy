@@ -27,13 +27,13 @@ async function updatePrices() {
     const selectedCurrency = currencySelect.value;
     const rates = await fetchExchangeRates();
 
-  // Obtener la tasa de cambio de EUR a la moneda seleccionada
+    // Obtener la tasa de cambio de EUR a la moneda seleccionada
     const rate = selectedCurrency === "eur" ? 1: rates.eur[selectedCurrency];
 
     // Calcular y mostrar los precios convertidos que ha elegido el usuaro con dos decimales y mayus
-basicPriceDisplay.textContent = `${(pricesInEUR.basic * rate).toFixed(2)} ${selectedCurrency.toUpperCase()}`;
-professionalPriceDisplay.textContent = `${(pricesInEUR.professional * rate).toFixed(2)} ${selectedCurrency.toUpperCase()}`;
-premiumPriceDisplay.textContent = `${(pricesInEUR.premium * rate).toFixed(2)} ${selectedCurrency.toUpperCase()}`;
+    basicPriceDisplay.textContent = `${(pricesInEUR.basic * rate).toFixed(2)} ${selectedCurrency.toUpperCase()}`;
+    professionalPriceDisplay.textContent = `${(pricesInEUR.professional * rate).toFixed(2)} ${selectedCurrency.toUpperCase()}`;
+    premiumPriceDisplay.textContent = `${(pricesInEUR.premium * rate).toFixed(2)} ${selectedCurrency.toUpperCase()}`;
 }
 
 currencySelect.addEventListener("change", updatePrices);

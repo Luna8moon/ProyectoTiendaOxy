@@ -6,8 +6,8 @@ document.addEventListener('scroll', () => {
   const scrollPosition = window.scrollY + window.innerHeight;
   const pageHeight = document.documentElement.scrollHeight;
 
-  // Se calcula el tamaño de la página por un 90%
-  if (scrollPosition >= pageHeight * 0.9) {
+  // Se calcula el tamaño de la página por un %
+  if (scrollPosition >= pageHeight * 0.7) {
     buttonScroll.style.display = 'block';
   } else {
     buttonScroll.style.display = 'none';

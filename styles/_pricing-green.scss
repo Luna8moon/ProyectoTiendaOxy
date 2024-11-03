@@ -13,7 +13,7 @@
         justify-content: center;
         position: relative;
         margin:20px 35px;
-        height: 230px;
+        
     }
 
     &__h2{
@@ -21,7 +21,7 @@
         font-size: 20px;
         font-weight: 700;
         line-height: 24px;
-        text-align: left;
+        text-align: center;
         margin: 0;
         margin-left: 15px;
     }
@@ -29,9 +29,9 @@
     &__dolar{
         color :hsl(124, 96%, 61%) ;
         font-family: "Open Sans";
-        font-size: 46px;
-        font-weight: 300;
-        line-height: 64px;
+        font-size: 40px;
+        font-weight: 200;
+        line-height: 50px;
         margin: 0;
         text-align: center;
         margin-left: 15px;
@@ -97,9 +97,9 @@
         line-height: 17.7px;
         border: none;
         text-align: center;
-        padding: 15px 60px;
+        padding: 10px 50px;
         position: relative;
-        top: 4px;
+        top: 20px;
     }
 
     @media only screen and (min-width: 1000px){

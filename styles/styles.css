@@ -1,3 +1,4 @@
+@charset "UTF-8";
 body {
   margin: 0;
   width: 100%;
@@ -426,14 +427,13 @@ body {
   justify-content: center;
   position: relative;
   margin: 20px 35px;
-  height: 230px;
 }
 .pricing__h2 {
   font-family: "Raleway";
   font-size: 20px;
   font-weight: 700;
   line-height: 24px;
-  text-align: left;
+  text-align: center;
   margin: 0;
   margin-left: 10px;
 }
@@ -441,8 +441,8 @@ body {
   color: hsl(347, 96%, 61%);
   font-family: "Open Sans";
   font-size: 46px;
-  font-weight: 300;
-  line-height: 64px;
+  font-weight: 250;
+  line-height: 50px;
   margin: 0;
   text-align: left;
   margin-left: 10px;
@@ -498,9 +498,9 @@ body {
   line-height: 17.7px;
   border: none;
   text-align: center;
-  padding: 15px 60px;
+  padding: 10px 50px;
   position: relative;
-  top: 4px;
+  top: 24px;
 }
 .pricing__text {
   width: 100%;
@@ -596,7 +596,7 @@ body {
     text-align: center;
     padding: 15px 60px;
     position: relative;
-    top: 4px;
+    top: 40px;
   }
   .pricing__pricing-text {
     width: 100%;
@@ -618,7 +618,6 @@ li {
 table {
   padding-left: 50px;
   margin: 0;
-  border: solid 2px black;
 }
 @media only screen and (min-width: 1000px) {
   table {
@@ -649,7 +648,7 @@ table {
   font-size: 20px;
   font-weight: 700;
   line-height: 24px;
-  text-align: left;
+  text-align: center;
   margin: 0;
   margin-left: 10px;
 }
@@ -658,7 +657,7 @@ table {
   font-family: "Open Sans";
   font-size: 46px;
   font-weight: 300;
-  line-height: 64px;
+  line-height: 50px;
   margin: 0;
   text-align: center;
   margin-left: 10px;
@@ -718,7 +717,7 @@ table {
   line-height: 17.7px;
   border: none;
   text-align: center;
-  padding: 10px 60px;
+  padding: 10px 50px;
   position: relative;
   top: 20px;
 }
@@ -839,23 +838,22 @@ table {
   justify-content: center;
   position: relative;
   margin: 20px 35px;
-  height: 230px;
 }
 .pricing-green__h2 {
   font-family: "Raleway";
   font-size: 20px;
   font-weight: 700;
   line-height: 24px;
-  text-align: left;
+  text-align: center;
   margin: 0;
   margin-left: 15px;
 }
 .pricing-green__dolar {
   color: hsl(124, 96%, 61%);
   font-family: "Open Sans";
-  font-size: 46px;
-  font-weight: 300;
-  line-height: 64px;
+  font-size: 40px;
+  font-weight: 200;
+  line-height: 50px;
   margin: 0;
   text-align: center;
   margin-left: 15px;
@@ -914,9 +912,9 @@ table {
   line-height: 17.7px;
   border: none;
   text-align: center;
-  padding: 15px 60px;
+  padding: 10px 50px;
   position: relative;
-  top: 4px;
+  top: 20px;
 }
 @media only screen and (min-width: 1000px) {
   .pricing-green .pricing-green {
@@ -1147,3 +1145,87 @@ li {
     justify-content: space-between;
   }
 }
+.scroll {
+  position: fixed;
+  bottom: 20px;
+  padding: 8px 15px;
+  background-color: rgb(8, 166, 228);
+  color: white;
+  border: none;
+  border-radius: 10px;
+  font-size: 20px;
+}
+
+/* Oculta el botón de cerrar y el menú inicialmente */
+#close {
+  display: none;
+}
+
+.open_hamburguer, .close_hamburguer {
+  background: none;
+  border: none;
+  font-size: 24px;
+  cursor: pointer;
+  position: relative;
+  z-index: 10;
+}
+
+/* Estilos para el menú desplegable, visible solo en dispositivos móviles */
+@media (max-width: 768px) {
+  /* Botón de menú hamburguesa (abrir) */
+  .open_hamburguer {
+    display: block;
+    position: absolute; /* Cambiado a absolute para que se ajuste en relación al contenedor */
+    top: 20px;
+    right: 20px;
+  }
+  /* Botón de menú hamburguesa (cerrar) */
+  .close_hamburguer {
+    display: none;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    color: rgb(8, 166, 228);
+  }
+  /* Estilo inicial del menú desplegable */
+  .header__menu {
+    position: absolute;
+    top: 100px; /* Cambia este valor a la altura de tu título más cualquier margen adicional */
+    left: 0;
+    width: 100%;
+    background-color: #ffffff;
+    list-style: none;
+    padding: 20px;
+    color: black;
+    display: none; /* Oculto inicialmente */
+    flex-direction: column;
+    gap: 20px;
+    z-index: 9;
+    opacity: 0;
+    transform: translateY(-100%); /* Oculto fuera de la vista en la parte superior */
+    transition: transform 0.3s ease, opacity 0.3s ease;
+  }
+  /* Mostrar el menú desplegable desde arriba hacia abajo */
+  .header__menu.show {
+    display: flex;
+    transform: translateY(0); /* Mueve el menú a la vista */
+    opacity: 1;
+  }
+  /* Estilos para cada elemento de menú */
+  .header__menuburger {
+    font-size: 18px;
+    color: #A5A5A5;
+    cursor: pointer;
+    padding: 10px 0;
+    border-bottom: 0;
+  }
+  .header__menuburger:hover {
+    color: #aaa;
+  }
+}
+/* Ocultar el menú y botones en pantallas grandes */
+@media (min-width: 769px) {
+  #open, #close, .header__menu {
+    display: none;
+  }
+}/*# sourceMappingURL=styles.css.map */

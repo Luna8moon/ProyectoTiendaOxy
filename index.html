@@ -21,11 +21,16 @@
         <h1 class="header__title-logo">OXYGENShop</h1>
         <h1 class="header__title-logo2">OXYGEN Shop</h1>
         <button id="open" class="open_hamburguer">
-            <img class="header__barralogo" src="./imagenes/Menu.png" alt="Logo" />
+            <img src="./imagenes/Menu.png" alt="Abrir menú" />
         </button>
-        <button id="close" class="close_hamburguer">
-            <img class="header__barralogo" src="./imagenes/Menu.png" alt="Logo" />
-        </button>
+        <button id="close" class="close_hamburguer">✖</button>
+        <ul id="dropdown" class="header__menu">
+            <li class="header__menuburger">WHY US</li>
+            <li class="header__menuburger">BENEFFITS</li>
+            <li class="header__menuburger">PRICES</li>
+            <li class="header__menuburger">CONTACT</li>
+        </ul>
+        
         <!-- desktop -->
         <ul id="dropdown" class="header__menu-title">
             <li class="header__menu-title1">WHY US</li>
@@ -253,7 +258,7 @@
         <button class="form__button">Send</button>
     </form>
 
-    <button class="button__scroll" id="buttonScroll">Return to the top</button>
+    <button class="scroll" id="buttonScroll">↑</button>
 
     <footer class="footer">
         <h1 class="footer__title">OXYGENShop</h1>
@@ -263,8 +268,10 @@
         <p class="footer__copy">© 2022 OXYGEN, All Rights Reserved</p>
     </footer>
 
-    <script src="./scripts/formulario.js"></script>
     <script src="./scripts/currency.js"></script>
-
+    <script src="./scripts/formulario.js"></script>
+    <script src ="./scripts/scroll.js"></script>
+    <script src ="./scripts/menuburguer.js"></script>
+    
 </body>
 </html>
