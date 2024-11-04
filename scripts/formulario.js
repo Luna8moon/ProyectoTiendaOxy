@@ -6,7 +6,7 @@ document.getElementById('name').addEventListener('click', function() { //cuando 
     // Elimina la clase de error si existe
     input.classList.remove('error');
 
-    // Valida
+    // Validacioón
     if (value.length < 2) {
         input.classList.add('error'); // Agregar borde rojo
         console.log('El nombre debe tener al menos 2 caracteres.'); 

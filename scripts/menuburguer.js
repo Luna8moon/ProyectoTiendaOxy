@@ -1,5 +1,5 @@
 
-// Selección de elementos
+// Selección de elementos de id
 const openButton = document.getElementById('open');
 const closeButton = document.getElementById('close');
 const dropdownMenu = document.getElementById('dropdown');
